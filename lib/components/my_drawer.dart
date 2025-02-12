@@ -1,8 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
-import '../auth/auth_service.dart';
-import '../pages/settings_page.dart';
+import 'package:minimal_chat/pages/settings_page.dart';
+import 'package:minimal_chat/services/auth/auth_service.dart';
 
 class MyDrawer extends StatelessWidget {
   const MyDrawer({super.key});
